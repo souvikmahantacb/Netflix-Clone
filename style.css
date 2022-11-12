@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    height: 110vh;
+    background-image: url("main_banner.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    }
+.logo img{
+    width: 200px;
+    padding-left: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+#language{
+    width: 90px;
+    height: 37px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.navbar button{
+    width: 90px;
+    height: 37px;
+    margin-left: 40px;
+    border: none;
+    color: white;
+    background-color: #E50914;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    border-radius: 2px;
+}
+option{
+    background-color: gray;
+    color: white;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 140px;
+   
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.heading h3{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+.heading p{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    margin-bottom: 15px;
+    letter-spacing: .7px;
+}
+#body .emailbar{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+}
+#emailbar{
+    width: 500px;
+    height: 60px;
+    padding: 8px;
+    cursor: text;
+    border-radius: 0%;
+    font-size: 18px;
+    border: none;
+
+}
+.emailbar button{
+width: 190px;
+height: 60px;
+font-size: 1.5rem;
+color: white;
+border: none;
+background-color: #E50914;
+cursor: pointer;
+padding: 0px;
+}
+#body .ER{
+    color: #ffa00a;
+    font-family: 'Lato', sans-serif;
+    
+}
+hr{
+    height: 5px;
+    background-color: grey;
+}
+
+/* tv section */
+.smallbox{
+    width: 100%;
+    height: 460px;
+}
+.tv_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.tv_section .media1 img{
+    width: 500px;
+    position: absolute;
+}
+.tv_section .content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.content h1{
+font-size: 50px;
+font-family: 'Lato', sans-serif;
+margin-bottom: 20px;
+
+}
+.content p{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+.video{
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+    width: 100%;
+}
+.down_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.down_section .content{
+    padding-right: 100px;
+}
+.down_section .media2 img{
+    height: 350px;
+    
+}
+
+.watch_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    margin-left: 79.5px;
+    margin-top: 60px;
+}
+.content_tv h1{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    
+    }
+    .content_tv p{
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+    }
+.watch{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 5%;
+    position: relative;
+    }
+    .watch_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column ;
+    }
+    .watch_content h1{
+        color: white;
+        font-size: 50px;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .watch_content p{
+        color: white;
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+    }
+    .watch .media3 img{
+        width: 600px;
+        z-index: 5;
+        position: relative;
+    }
+    .watch .media3 video{
+        width: 370px;
+        position: absolute;
+        top: 93px;
+        left: 786px;
+        object-fit: contain;
+    }
+    .child
+    {
+        margin: 35px 0%;
+    }
+    .down_section .child_img img{
+        height: 400px;
+        padding-left: 100px;
+    }
+    #qnbox{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    #qnbox .qns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 3px;
+    }
+    #qnbox h1{
+        color: white;
+        text-align: center;
+        margin: 60px;
+        font-family: 'Lato', sans-serif;
+        font-size: 3.125rem;;
+        
+    }
+    #qnbox .qns .qnbox{
+        display: grid;
+        grid-template-columns:700px 50px;
+        background-color: #303030;
+        padding: 10px 30px;
+        align-items: center;
+        cursor: pointer;
+       }
+    #qnbox .qns .qnbox h2{
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+       
+    }
+    #qnbox .qns .qnbox img{
+        fill: white;
+        width: 40px;}
+    #qnbox .ans{
+        /* display: grid;
+        grid-template-columns:700px 50px; */
+        display: block;
+        width: 60%;
+        background-color: #303030;
+        padding: 30px;
+        margin: 2px 0px;
+    }
+    #qnbox .ans p{
+        color: white;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+    }
+    .mail_section{
+        margin: 70px;
+    }
+    .mail_section p{
+        font-size: 19px;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin: 10px;
+        }
+    .mail_section .emailbar{
+        display: flex;
+        align-items: center;
+    }
+    .footer{
+        margin: 86px 250px;
+    }
+
+    #footer .footer .call h2{
+        color: grey;
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        margin-bottom: 19px;
+    
+    }
+    #footer .footer .misc h3{
+        color: grey;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: lighter;
+        margin: 10px;
+    }
+    #footer .footer .misc{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 10px;
+    }
+
+    
+
+        
+       
